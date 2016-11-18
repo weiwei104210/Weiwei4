@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_sel_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#1FB35F"
+        android:gravity="center"
+        android:text="定时播放"
+        android:textSize="25sp" />
+
+    <RadioGroup
+        android:id="@+id/ra_con_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <RadioButton
+            style="@style/MyStyle"
+            android:text="5分钟" />
+
+        <RadioButton
+            style="@style/MyStyle"
+            android:text="15分钟" />
+
+        <RadioButton
+            style="@style/MyStyle"
+            android:text="30分钟" />
+
+        <RadioButton
+            style="@style/MyStyle"
+            android:text="1小时" />
+
+        <RadioButton
+            style="@style/MyStyle"
+            android:text="2小时" />
+    </RadioGroup>
+</LinearLayout>

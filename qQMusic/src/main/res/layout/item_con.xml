@@ -1,0 +1,16 @@
+
+
+
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/tv_con_item"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="设置项"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="30sp" />
+
+
